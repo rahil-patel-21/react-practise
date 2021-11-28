@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ClassBase from './ClassBase';
+import RecentChats from './RecentChats';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <RecentChats />
   </React.StrictMode>,
   document.getElementById('root')
 );
